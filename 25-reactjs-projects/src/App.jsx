@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       {/* Accordian component */}
-      {/* <Accordian/> */}
+      <Accordian/>
 
       {/* Random Color Generator */}
-      <RandomColor/>
+      {/* <RandomColor/> */}
 
     </div>
   );
