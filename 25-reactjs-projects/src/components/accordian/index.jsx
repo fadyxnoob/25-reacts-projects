@@ -34,10 +34,11 @@ export default function Accordian() {
       return selected === id;
     }
   }
+  
   return (
     <div className="flex h-screen w-screen justify-center items-center flex-col gap-5 bg-black">
       <h1 className="font-bold text-5xl text-white">React Js Accordian </h1>
-      <div className="accordian">
+      <div className="w-1/2">
         {data && data.length > 0 ? (
           data.map((dataItem) => (
             <div className="rounded bg-[#614101] mb-2.5 px-5 py-2.5">
