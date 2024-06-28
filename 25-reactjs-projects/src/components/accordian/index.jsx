@@ -5,14 +5,9 @@ export default function Accordian() {
   const [selected, setSelected] = useState(null);
   const [enableMultiSelection, setEnableMultiSelection] = useState(false);
   const [multiple, setMultiple] = useState([]);
-  const [openAccordian, setOpenAccordian] = useState('+')
 
   function handleSingleSelection(getCurrentId) {
     setSelected(getCurrentId === selected ? null : getCurrentId);
-    setOpenAccordian(getCurrentId === selected ? '-' : '+');
-
-
-
   }
 
   function handleMultiSelection(getCurrentId) {
