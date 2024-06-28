@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import data from './data'
-import './style.css';
 
 export default function Accordian() {
   const [selected, setSelected] = useState(null);
@@ -34,7 +33,7 @@ export default function Accordian() {
       return selected === id;
     }
   }
-  
+
   return (
     <div className="flex h-screen w-screen justify-center items-center flex-col gap-5 bg-black">
       <h1 className="font-bold text-5xl text-white">React Js Accordian </h1>
